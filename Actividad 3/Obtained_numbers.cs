@@ -18,15 +18,15 @@ namespace Actividad_3
         }
         public virtual void Addition()
         {
-            Console.WriteLine("");
+            Console.Write("The addition of");
         }
         public virtual void Substraction()
         {
-            Console.WriteLine("");
+            Console.Write("The Substraction of ");
         }
         public virtual void Multiplication()
         {
-            Console.WriteLine("");
+            Console.Write("The Multiplication of ");
         }
     }
 }

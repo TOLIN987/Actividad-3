@@ -14,15 +14,15 @@ namespace Actividad_3
         }
         public override void Addition()
         {
-            Console.WriteLine("The addition of {0} + {1} is {2}", num1, num2, (num1+num2));
+            base.Addition(); Console.WriteLine(" {0} + {1} is {2}", num1, num2, (num1+num2));
         }
         public override void Multiplication()
         {
-            Console.WriteLine("The Multiplication of {0} * {1} is {2}", num1,num2,(num1*num2));
+            base.Multiplication(); Console.WriteLine("{0} * {1} is {2}", num1,num2,(num1*num2));
         }
         public override void Substraction()
         {
-            Console.WriteLine("The Substraction of {0} - {1} is {2}", num1, num2, (num1 - num2));
+            base.Substraction(); Console.WriteLine("{0} - {1} is {2}", num1, num2, (num1 - num2));
         }
         
     }
