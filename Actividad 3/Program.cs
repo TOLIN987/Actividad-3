@@ -12,7 +12,7 @@ namespace Actividad_3
         static void Main(string[] args)
         {
             
-            double num1= 0;
+            double num1= 0; 
             double num2= 0;
             bool Validation = false;
             while (Validation == false )
