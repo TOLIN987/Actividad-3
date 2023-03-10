@@ -19,7 +19,7 @@ namespace Actividad_3
         public virtual void Addition()
         {
             Console.Write("The addition of");
-        }
+        } 
         public virtual void Substraction()
         {
             Console.Write("The Substraction of ");
